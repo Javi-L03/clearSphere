@@ -1,3 +1,4 @@
+const host = window.location.origin;
 var apiKey = "16887fafcd130b5e54f78f627dbbb936";
 let chart;
 
@@ -134,7 +135,7 @@ async function updatePastSearches(location, start, end) {
 
     console.log('User Array: ', usersArray);
 
-    await fetch('http://localhost:3000/update', {
+    await fetch(`${host}/update`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',

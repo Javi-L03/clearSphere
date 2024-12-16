@@ -1,4 +1,3 @@
-//const host = window.location.origin;
 var apiKey = "16887fafcd130b5e54f78f627dbbb936";
 let chart;
 

@@ -1,4 +1,4 @@
-const host = window.location.origin;
+//const host = window.location.origin;
 async function createUser() {
     console.log('Create User')
     await fetch(`${host}/user`, {
